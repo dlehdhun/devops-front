@@ -1,0 +1,105 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(160deg, #1a1d29 0%, #252a38 50%, #1e222e 100%);
+  color: #e8eaed;
+}
+
+/* BookListPage */
+.book-list-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.book-list-header {
+  margin-bottom: 2rem;
+}
+
+.book-list-header h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.book-list-count {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #9aa0a6;
+}
+
+.book-list-loading,
+.book-list-error {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #9aa0a6;
+}
+
+.book-list-error {
+  background: rgba(234, 67, 53, 0.08);
+  border: 1px solid rgba(234, 67, 53, 0.3);
+  border-radius: 12px;
+}
+
+.book-list-error p {
+  margin: 0 0 0.5rem;
+}
+
+.book-list-error-hint {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.book-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.book-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.book-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.book-card-main {
+  margin-bottom: 0.5rem;
+}
+
+.book-title {
+  margin: 0 0 0.35rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.book-author {
+  margin: 0 0 0.25rem;
+  font-size: 0.95rem;
+  color: #b8bcc4;
+}
+
+.book-meta {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #9aa0a6;
+}
+
+.book-description {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #9aa0a6;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
